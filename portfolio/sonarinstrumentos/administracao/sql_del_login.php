@@ -1,0 +1,39 @@
+<?php
+
+//DELETAR LOGIN
+
+ob_start();
+
+//VALIDAR SE ID FOI ENVIADO
+
+if(isset($_GET['id']) and !empty($_GET['id']) and is_numeric($_GET['id'])){
+
+
+
+	$id_login = $_GET['id'];//RECEBE ID DO USUÁRIO
+
+	
+
+	include("conecta.php");//CONECTAR AO BANCO
+
+	
+
+	$del_login = "DELETE FROM login WHERE id = $id_login";// QUERY DE DELEÇÃO DO USUÁRIO
+
+	$q_del_login = mysql_query($del_login);//QUERY EXECUTA
+
+	
+
+	header("location:exibe_usuarios.php?frase=2");//REDIRECIONA E EXIBE MENSAGEM
+
+}else{
+
+header("location:exibe_usuarios.php?frase=3");//REDIRECIONA E EXIBE ERRO CASO ID NÃO FOI SETADO
+
+}
+
+
+
+
+
+?>

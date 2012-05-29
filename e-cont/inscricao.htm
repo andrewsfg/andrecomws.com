@@ -1,0 +1,320 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+
+<head>
+
+<title>Inscri&ccedil;&atilde;o</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+</head>
+
+
+
+<body bgcolor="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+
+<table width="607" height="1116" border="0" align="center" cellpadding="0" cellspacing="0">
+
+  <tr> 
+
+    <td width="607" height="19" bgcolor="#666666"> 
+
+      <div align="center"><img src="imagens_layout/inscricao.jpg" width="607" height="84"></div></td>
+
+  </tr>
+
+  <tr> 
+
+    <td height="1097" bgcolor="#333333"> 
+
+      <div align="center"> 
+
+        <table width="567" height="1041" border="1" cellpadding="0" cellspacing="0" bordercolor="#999999">
+
+          <tr> 
+
+            <td width="563" height="21" bgcolor="#666666"> <div align="center"><font color="#FFFFFF" size="2" face="Tahoma"><strong>Formulário 
+
+                de Inscrição</strong></font></div></td>
+
+          </tr>
+
+          <tr> 
+
+            <td height="1018" bgcolor="#CCCCCC"> 
+
+              <div align="center">
+
+				
+
+				<form name="inscricao" method="post" action="envia_inscricao.php">
+
+                  <p><font size="2" face="Tahoma"><strong>*Preencha todos os campos!</strong></font></p>
+
+                  <table width="433" border="0" cellpadding="1" cellspacing="1">
+
+                    <tr> 
+
+                      <th colspan="2">&nbsp;</th>
+
+                    </tr>
+
+                    <tr> 
+
+                      <td width="155"><font size="2" face="Tahoma">Nome:</font></td>
+
+                      <td width="262"><font size="2" face="Tahoma"> 
+
+                        <input name="nome" type="text" id="nome" size="40" />
+
+                        </font></td>
+
+                    </tr>
+
+                    <tr> 
+
+                      <td><font size="2" face="Tahoma">Data de Nascimento:</font></td>
+
+                      <td><font size="2" face="Tahoma"> 
+
+                        <input name="nascimento1" type="text" id="nascimento1" size="1" maxlength="3" />
+
+                        / 
+
+                        <input name="nascimento2" type="text" id="nascimento2" size="1" maxlength="3" />
+
+                        / 
+
+                        <input name="nascimento3" type="text" id="nascimento3" size="2" maxlength="4" />
+
+                        </font></td>
+
+                    </tr>
+
+                    <tr> 
+
+                      <td><font size="2" face="Tahoma">Sexo:</font></td>
+
+                      <td><font size="2" face="Tahoma"> 
+
+                        <input type="radio" name="sexo" value="masculino" />
+
+                        Masculino 
+
+                        <input type="radio" name="sexo" value="feminino" />
+
+                        Feminino</font></td>
+
+                    </tr>
+
+                    <tr> 
+
+                      <td><font size="2" face="Tahoma">Estado Civil:</font></td>
+
+                      <td><font size="2" face="Tahoma"> 
+
+                        <input type="radio" name="estadocivil" id="estadocivil" value="solteiro" />
+
+                        Solteiro(a) 
+
+                        <input type="radio" name="estadocivil" id="estadocivil2" value="casado" />
+
+                        Casado(a)</font></td>
+
+                    </tr>
+
+                    <tr> 
+
+                      <td><font size="2" face="Tahoma">Curso:</font></td>
+
+                      <td><font size="2" face="Tahoma"> 
+
+                        <input type="radio" name="curso" id="curso" value="economia" />
+
+                        Economia 
+
+                        <input type="radio" name="curso" id="curso" value="contabilidade" />
+
+                        Contabilidade</font></td>
+
+                    </tr>
+
+                    <tr> 
+
+                      <td><font size="2" face="Tahoma">Turno:</font></td>
+
+                      <td><font size="2" face="Tahoma"> 
+
+                        <input type="radio" name="turno" id="turno" value="manha" />
+
+                        Manhã 
+
+                        <input type="radio" name="turno" id="turno" value="noite" />
+
+                        Noite</font></td>
+
+                    </tr>
+
+                    <tr> 
+
+                      <td><font size="2" face="Tahoma">Periódo:</font></td>
+
+                      <td><font size="2" face="Tahoma"> 
+
+                        <select name="periodo" id="periodo">
+
+                          <option value="primeiro">Primeiro</option>
+
+                          <option value="segundo">Segundo</option>
+
+                          <option value="terceiro">Terceiro</option>
+
+                          <option value="quarto">Quarto</option>
+
+                          <option value="quinto">Quinto</option>
+
+                          <option value="sexto">Sexto</option>
+
+                          <option value="setimo">Sétimo</option>
+
+                          <option value="oitavo">Oitavo</option>
+
+                          <option value="nono">Nono</option>
+
+                          <option value="decimo">Décimo</option>
+
+                        </select>
+
+                        </font></td>
+
+                    </tr>
+
+                    <tr> 
+
+                      <td><font size="2" face="Tahoma">Endereço:</font></td>
+
+                      <td><font size="2" face="Tahoma"> 
+
+                        <input name="endereco" type="text" id="endereco" size="30" />
+
+                        </font></td>
+
+                    </tr>
+
+                    <tr> 
+
+                      <td><font size="2" face="Tahoma">Cidade:</font></td>
+
+                      <td><font size="2" face="Tahoma"> 
+
+                        <input name="cidade" type="text" id="cidade" size="20" />
+
+                        </font></td>
+
+                    </tr>
+
+                    <tr> 
+
+                      <td><font size="2" face="Tahoma">E-mail:</font></td>
+
+                      <td><font size="2" face="Tahoma"> 
+
+                        <input name="email" type="text" id="email" size="30" />
+
+                        </font></td>
+
+                    </tr>
+
+                    <tr> 
+
+                      <td><font size="2" face="Tahoma">Telefone:</font></td>
+
+                      <td><font size="2" face="Tahoma"> 
+
+                        <input name="telefone" type="text" id="telefone" size="10" />
+
+                        </font></td>
+
+                    </tr>
+
+                    <tr> 
+
+                      <td><font size="2" face="Tahoma">Celular:</font></td>
+
+                      <td><font size="2" face="Tahoma"> 
+
+                        <input type="text" name="celular" id="celular" />
+
+                        </font></td>
+
+                    </tr>
+
+                    <tr> 
+
+                      <td><font size="2" face="Tahoma">&nbsp;</font></td>
+
+                      <td><font size="2" face="Tahoma"> 
+
+                        <textarea name="mensagem" id="mensagem">Digite sua mensagem aqui
+
+</textarea>
+
+                        </font></td>
+
+                    </tr>
+
+                    <tr> 
+
+                      <td><font size="2" face="Tahoma">&nbsp;</font></td>
+
+                      <td><font size="2" face="Tahoma"> 
+
+                        <input type="submit" name="bt-envia" id="bt-envia" value="Enviar" />
+
+                        
+
+                        </font></td>
+
+                    </tr>
+
+                  </table>
+
+</form>
+
+				
+
+				
+
+				
+
+				<table width="75" height="517" border="0" cellpadding="0" cellspacing="0">
+
+                  <tr>
+
+                    <td height="517">&nbsp;</td>
+
+                  </tr>
+
+                </table>
+
+              </div>
+
+             
+
+              </td>
+
+          </tr>
+
+        </table>
+
+      </div></td>
+
+  </tr>
+
+</table>
+
+</body>
+
+</html>
+

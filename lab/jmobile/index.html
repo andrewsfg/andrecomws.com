@@ -1,0 +1,69 @@
+<!DOCTYPE html> 
+<html>
+	<head>
+	<meta charset="utf-8">
+	<title>Test - JQuery Mobile</title> 
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.0b1/jquery.mobile-1.0b1.min.css" />
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.6.1.min.js"></script>
+	<script type="text/javascript" src="http://code.jquery.com/mobile/1.0b1/jquery.mobile-1.0b1.min.js"></script>
+</head> 
+<body> 
+
+	<div data-role="page"> 
+		<div data-role="header">
+			<h1>aqui o cabeçalho</h1>
+			<a href="#" data-icon="check" class="ui-btn-right">Salvar</a>
+		</div> 
+		<div data-role="content">
+			<p>aqui o conteúdo</p>
+			<a href="#baralho" data-transition="flip">Visite o meu site</a>
+			<a href="#baralho2">Visite o meu outro site</a>
+			
+			<a href="index.html" data-rel="dialog">Abrir caixa de dialógo (tradução porca)</a>
+		</div> 
+		<div data-role="footer" class="ui-bar">
+			<h4>Footer</h4>
+			<a href="index.html" data-role="button" data-icon="delete">Remover</a>
+			<a href="index.html" data-role="button" data-icon="plus">Adicionar</a>
+			<a href="index.html" data-role="button" data-icon="arrow-u">Acima</a>
+			<a href="index.html" data-role="button" data-icon="arrow-d">Abaixo</a>
+		</div>
+	</div>
+	
+	<!-- Start of second page -->
+	<div data-role="page" id="baralho">
+
+		<div data-role="header">
+			<h1>Bar</h1>
+		</div><!-- /header -->
+
+		<div data-role="content">	
+			<p>I'm first in the source order so I'm shown as the page.</p>		
+			<p><a href="#foo">Back to foo</a></p>
+		</div><!-- /content -->
+
+		<div data-role="footer">
+			<h4>Page Footer</h4>
+		
+		</div><!-- /footer -->
+	</div><!-- /page -->
+
+	<!-- Start of second page -->
+	<div data-role="page" id="baralho2">
+
+		<div data-role="header">
+			<h1>Bar</h1>
+		</div><!-- /header -->
+
+		<div data-role="content">	
+			<p>I'm first in the source order so I'm shown as the page.</p>		
+			<p><a href="#foo">Back to foo</a></p>	
+		</div><!-- /content -->
+
+		<div data-role="footer">
+			<h4>Page Footer</h4>
+		</div><!-- /footer -->
+	</div><!-- /page -->
+	
+</body>
+</html>

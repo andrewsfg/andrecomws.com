@@ -1,0 +1,912 @@
+img {border:0;
+
+
+     }
+
+
+
+
+
+body {
+
+
+      margin:auto;
+
+
+      font-family: Arial, Helvetica, sans-serif; font-size:11px;
+
+
+            }
+
+
+
+
+
+#container {width:782px;
+
+
+            margin:auto;
+
+
+            }
+
+
+			
+
+
+#topo {background-repeat:no-repeat;
+
+
+	   margin-left:20px;
+
+
+        width:782px;
+
+
+		height:119px;
+
+
+		text-align:right;
+
+
+		}
+
+
+
+
+
+#menu_topo { padding-top:13px;
+
+
+			 padding-right:35px}
+
+
+			 
+
+
+#menu_topo img{
+
+
+			 margin-bottom:5px;
+
+
+			 }
+
+
+		
+
+
+#menu {text-align:left;
+
+
+       background-image:url(imgs/menu.gif);
+
+
+       background-repeat:no-repeat;
+
+
+	   width:782px;
+
+
+	   height:36px;
+
+
+	   padding-top:6px;
+
+
+	   display: block;
+
+
+	   }
+
+
+	   
+
+
+#menu li {float:left}
+
+
+#menu li a{ display:block;
+
+
+             padding-left:10px;
+
+
+			 padding-top:0px}
+
+
+
+
+
+
+
+
+
+
+
+#menu_vertical {margin-left:11px;
+
+
+                _margin-left:6px;
+
+
+                margin-top:10px;
+
+
+                width:88px;
+
+
+				background-color:#CCCCCC;
+
+
+				float:left;
+
+
+				text-align:left;
+
+
+				border-right: 3px #666666 solid;
+
+
+				border-bottom: 2px #666666 solid;
+
+
+				}
+
+
+#imgprod{
+
+
+	width:300px;
+
+
+	height:450px;
+
+
+	float:left;
+
+
+	border:0px solid #000000;
+
+
+	margin-right:15px;
+
+
+	}
+
+
+
+
+
+#menu_vertical li a { color:#000000; text-decoration:none; margin-left:4px}
+
+
+#menu_vertical li a:hover { color:#FF0000; text-decoration:underline;}
+
+
+
+
+
+#banner {float:left;
+
+
+           margin-top:10px;
+
+
+		   margin-left:15px;
+
+
+		   background-color:#CCCCCC;
+
+
+		   width:650px;
+
+
+		   height:110px;
+
+
+                   border-top: 1px solid #666666;
+
+
+                   border-left: 1px solid #666666;
+
+
+                   border-right: 1px solid #666666;
+
+
+		   border-bottom: 2px solid #666666;
+
+
+           }
+
+
+		   		
+
+
+#conteudo {float:left;
+
+
+           margin-top:10px;
+
+
+		   margin-left:15px;
+
+
+		   width:650px;	
+
+
+           }
+
+
+		   
+
+
+#rodape {  float:left;
+
+
+           clear:both;
+
+
+		   padding-bottom:10px;
+
+
+		   text-align:center;
+
+
+		   margin-top:10px;
+
+
+		   width:782px;	
+
+
+           } 
+
+
+
+
+
+#menu li { 
+
+
+	 margin-left:8px;
+
+
+	 _margin-left:6px;
+
+
+	 margin-bottom:1px}
+
+
+	 
+
+
+li { list-style-image:none;
+
+
+     list-style:none;
+
+
+	 list-style-position:outside;
+
+
+	 margin-bottom:2px;
+
+
+}
+
+
+
+
+
+.desclonga{
+
+
+	padding:15px;
+
+
+}
+
+
+	 
+
+
+#produto { width:160px;
+
+
+           height:180px;
+
+
+		   text-align:center;
+
+
+		   float:left;
+
+
+		   margin-left:1px;
+
+
+		   margin-bottom:10px;
+
+
+           border-right:#CCCCCC 1px dashed;
+
+
+           border-bottom:#CCCCCC 1px dashed}
+
+
+		   
+
+
+#produto a:link {
+
+
+	color: #000000;
+
+
+	text-decoration: none;
+
+
+}
+
+
+
+
+
+#produto a:visited {
+
+
+	text-decoration: none;
+
+
+	color: #000000;
+
+
+}
+
+
+#produto a:hover {
+
+
+	text-decoration: underline;
+
+
+	color: #333333;
+
+
+}
+
+
+#produto a:active {
+
+
+	text-decoration: none;
+
+
+	color: #000000;
+
+
+}
+
+
+		   
+
+
+form {margin:0px}
+
+
+
+
+
+input {background-color:#ccc;
+
+
+       border-left:1px solid #999999;
+
+
+	   border-right:1px solid #999999;
+
+
+	   border-bottom:1px solid #999999;
+
+
+	   border-top:1px solid #999999;
+
+
+	   font-size:11px}
+
+
+	   
+
+
+.formbusca {font-weight:bold}
+
+
+.logo {margin-top:20px; margin-left:10px}
+
+
+.topo_palco { margin-left:27px}
+
+
+
+
+
+.preco{color:#FF6000;
+
+
+			font-size:12px;
+
+
+			font-weight:bold;
+
+
+			 }
+
+
+			 
+
+
+.preco2{color:#FF6000;
+
+
+			font-size:18px;
+
+
+			font-weight:bold;
+
+
+			 }
+
+
+			 
+
+
+			 
+
+
+	a:link {
+
+
+	color: #333333;
+
+
+	text-decoration: none;
+
+
+}
+
+
+a:visited {
+
+
+	text-decoration: none;
+
+
+	color: #006699;
+
+
+}
+
+
+a:hover {
+
+
+	text-decoration: underline;
+
+
+	color: #000000;
+
+
+}
+
+
+a:active {
+
+
+	text-decoration: none;
+
+
+	color: #313031;
+
+
+}
+
+
+
+
+
+h3{
+
+
+font-size:14px;
+
+
+}
+
+
+
+
+
+		   
+
+
+/* painel administração */
+
+
+
+
+
+#topoadm{
+
+
+	width:500px;
+
+
+	
+
+
+}
+
+
+
+
+
+#meioadm{
+
+
+	   text-align:left;
+
+
+       background-image:url(imgs/menu.gif);
+
+
+       background-repeat:no-repeat;
+
+
+	   width:782px;
+
+
+	   height:36px;
+
+
+	   padding:3px;
+
+
+	   display: block;
+
+
+	   text-align:center;
+
+
+}
+
+
+
+
+
+#contadm{
+
+
+	   background-color:#CCCCCC;
+
+
+	   width:752px;
+
+
+	   height:auto;
+
+
+	   margin-top:5px;
+
+
+	   margin-left:10px;
+
+
+	   border:1px solid #999999;
+
+
+	   padding:3px;
+
+
+	   text-align:center;
+
+
+	   }
+
+
+
+
+
+#paineladm{
+
+
+	   width:749px;
+
+
+	   height:auto;
+
+
+	   background-color:#FFFFFF;
+
+
+	   margin:2px 0px 0px 10px;
+
+
+	   padding:5px;
+
+
+	   border:1px solid #cccccc;
+
+
+	   text-align:center;
+
+
+	   }
+
+
+
+
+
+#admcat{
+
+
+	width:300px;
+
+
+	height:auto;
+
+
+	background-color:#EAF9FF;
+
+
+	padding:4px;
+
+
+	margin-top:2px;
+
+
+	margin-right:auto;
+
+
+	margin-left:auto;
+
+
+	border:1px solid #cccccc;
+
+
+	font-size:13px;
+
+
+	}
+
+
+	
+
+
+#admlog{
+
+
+	width:550px;
+
+
+	height:auto;
+
+
+	background-color:#EAF9FF;
+
+
+	padding:4px;
+
+
+	margin-top:2px;
+
+
+	margin-right:auto;
+
+
+	margin-left:auto;
+
+
+	border:1px solid #cccccc;
+
+
+	font-size:13px;
+
+
+	}
+
+
+
+
+
+#admusuario{
+
+
+	width:300px;
+
+
+	height:auto;
+
+
+	background-color:#EAF9FF;
+
+
+	padding-top:16px;
+
+
+	padding-bottom:8px;
+
+
+	margin-top:2px;
+
+
+	margin-right:auto;
+
+
+	margin-left:auto;
+
+
+	border:1px solid #cccccc;
+
+
+	font-size:13px;
+
+
+	}
+
+
+/* FORMULÁRIOS DO ADM */
+
+
+input{
+
+
+background-color:#F4F4F4;
+
+
+font-size:12px;
+
+
+border:1px solid #000000;
+
+
+margin:2px;
+
+
+padding:1px;
+
+
+}		
+
+
+
+
+
+select {
+
+
+background-color:#F4F4F4;
+
+
+font-size:12px;
+
+
+border:1px solid #000000;
+
+
+margin:2px;
+
+
+padding:1px;
+
+
+}
+
+
+
+
+
+textarea{
+
+
+background-color:#F4F4F4;
+
+
+font-size:12px;
+
+
+border:1px solid #000000;
+
+
+margin:2px;
+
+
+padding:1px;
+
+
+}
+
+
+/* TÍTULO ADMINISTRAÇÃO */
+
+
+
+
+
+.titadm {
+
+
+	font-family:Arial, Helvetica, sans-serif;
+
+
+	font-size:14px;
+
+
+	font-weight:bold;
+
+
+	text-align:center;
+
+
+	padding-top:1px;
+
+
+	
+
+
+}
+
+
+
+
+
+.titadm2{
+
+
+	font-family:Arial, Helvetica, sans-serif;
+
+
+	font-size:12px;
+
+
+	font-weight:bold;
+
+
+	text-align:center;
+
+
+	color:#CC3300;
+
+
+	line-height:22px;
+
+
+	}
+
+
+	
+
+
+/* FORMATAÇÃO DAS TABELAS [TABLES]*/
+
+
+
+
+
+td{
+
+
+border:1px solid #cccccc;
+
+
+text-align:left;
+
+
+padding:2px;
+
+
+}
+
+
+
+
+

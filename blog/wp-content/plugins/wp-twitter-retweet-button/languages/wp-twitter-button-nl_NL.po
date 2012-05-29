@@ -1,0 +1,274 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP-Twitter Retweet Button v1.8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-08-16 15:29+0100\n"
+"PO-Revision-Date: 2011-03-21 19:45+0100\n"
+"Last-Translator: Rene <info@wpwebshop.com>\n"
+"Language-Team: Translation by WordPressWebshop.com <info@wpwebshop.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: Dutch\n"
+"X-Poedit-Country: NETHERLANDS\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ../\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#@ wp-twitter-button
+#: wp-twitter-button.php:481
+msgid "Settings for WP Twitter Button"
+msgstr "Instellingen voor WP Twitter Button"
+
+#@ wp-twitter-button
+#: wp-twitter-button.php:482
+msgid "This plugin will install the WP Twitter Button widget for each of your blog posts."
+msgstr "Deze plugin installeert de WP Twitter Button widget voor elk van je blog berichten."
+
+#@ wp-twitter-button
+#: wp-twitter-button.php:487
+msgid "Display"
+msgstr "Weergave"
+
+#@ wp-twitter-button
+#: wp-twitter-button.php:495
+msgid "Display the button on pages"
+msgstr "Geeft de knop op pagina's weer"
+
+#@ wp-twitter-button
+#: wp-twitter-button.php:499
+msgid "Display the button on front page (home)"
+msgstr "Geef de knop weer op de voorpagina (home)"
+
+#@ wp-twitter-button
+#: wp-twitter-button.php:503
+msgid "Display the button on archive-view <em>(<strong>Note</strong>: not all themes support this option)</em>"
+msgstr "Geef de knop weer bij archive-view <em>(<strong>Opmerking</strong>: niet alle sjablonen ondersteunen deze optie)</em>"
+
+#@ wp-twitter-button
+#: wp-twitter-button.php:507
+msgid "Display the button on category-view <em>(<strong>Note</strong>: not all themes support this option)</em>"
+msgstr "Geef de knop weer bij category-view <em>(<strong>Opmerking</strong>: niet alle sjablonen ondersteunen deze optie)</em>"
+
+#@ wp-twitter-button
+#: wp-twitter-button.php:511
+msgid "Display the button on rss-feed"
+msgstr "Geef de knop weer in RSS-Feed"
+
+#@ wp-twitter-button
+#: wp-twitter-button.php:516
+msgid "Position"
+msgstr "Positie"
+
+#@ wp-twitter-button
+#: wp-twitter-button.php:519
+#: wp-twitter-button.php:539
+msgid "Before"
+msgstr "Vóór"
+
+#@ wp-twitter-button
+#: wp-twitter-button.php:520
+#: wp-twitter-button.php:540
+msgid "After"
+msgstr "Na"
+
+#@ wp-twitter-button
+#: wp-twitter-button.php:521
+#: wp-twitter-button.php:541
+msgid "Before and After"
+msgstr "Vóór en Na"
+
+#@ wp-twitter-button
+#: wp-twitter-button.php:522
+#: wp-twitter-button.php:542
+msgid "Shortcode [wp_twitter]"
+msgstr "Shortcode [wp_twitter]"
+
+#@ wp-twitter-button
+#: wp-twitter-button.php:523
+msgid "Manual"
+msgstr "Manueel"
+
+#@ wp-twitter-button
+#: wp-twitter-button.php:536
+msgid "RSS Position"
+msgstr "RSS Positie"
+
+#@ wp-twitter-button
+#: wp-twitter-button.php:547
+msgid "Type"
+msgstr "Type"
+
+#@ wp-twitter-button
+#: wp-twitter-button.php:552
+msgid "Vertical count"
+msgstr "Verticale telling"
+
+#@ wp-twitter-button
+#: wp-twitter-button.php:559
+msgid "Horizontal count"
+msgstr "Horizontale telling"
+
+#@ wp-twitter-button
+#: wp-twitter-button.php:566
+msgid "No count"
+msgstr "Geen telling"
+
+#@ wp-twitter-button
+#: wp-twitter-button.php:573
+msgid "Styling"
+msgstr "Styling"
+
+#@ wp-twitter-button
+#: wp-twitter-button.php:576
+msgid "Add style to the div that surrounds the button E.g. <code>float: left; margin-right: 10px;</code>"
+msgstr "Voeg CSS stijl toe aan de div van de knop, bijv. <code>float: left; margin-right: 10px;</code>"
+
+#@ wp-twitter-button
+#: wp-twitter-button.php:580
+msgid "Source"
+msgstr "Naam"
+
+#@ wp-twitter-button
+#: wp-twitter-button.php:583
+msgid "Please use the format of 'yourname', not 'RT @yourname'."
+msgstr "Gebruik het format 'jouwnaam', niet 'RT @jouwnaam'."
+
+#@ wp-twitter-button
+#: wp-twitter-button.php:587
+msgid "Language"
+msgstr "Spraak"
+
+#@ wp-twitter-button
+#: wp-twitter-button.php:590
+msgid "English"
+msgstr "Engels"
+
+#@ wp-twitter-button
+#: wp-twitter-button.php:591
+msgid "French"
+msgstr "Frans"
+
+#@ wp-twitter-button
+#: wp-twitter-button.php:592
+msgid "German"
+msgstr "Duits"
+
+#@ wp-twitter-button
+#: wp-twitter-button.php:593
+msgid "Spanish"
+msgstr "Spaans"
+
+#@ wp-twitter-button
+#: wp-twitter-button.php:594
+msgid "Japanese"
+msgstr "Japans"
+
+#@ wp-twitter-button
+#: wp-twitter-button.php:596
+msgid "The language of the button."
+msgstr "De spraak van de knop."
+
+#@ wp-twitter-button
+#: wp-twitter-button.php:600
+msgid "Tweet-Text"
+msgstr "Tweet-Tekst"
+
+#@ wp-twitter-button
+#: wp-twitter-button.php:608
+msgid "The title of the page the button is on."
+msgstr "De titel van de pagina waar de knop geplaatst is."
+
+#@ wp-twitter-button
+#: wp-twitter-button.php:613
+msgid "This is the text that people will include in their Tweet when they share from your website."
+msgstr "Dit is de tekst welke mensen zullen gebruiken in hun Tweet wanneer zij delen vanaf je website."
+
+#@ wp-twitter-button
+#: wp-twitter-button.php:627
+msgid "Use tags as #hashtags"
+msgstr "Gebruik tags als #hashtags"
+
+#@ wp-twitter-button
+#: wp-twitter-button.php:526
+msgid "Add the following code to your template"
+msgstr "Voeg de volgende code toe aan je sjabloon"
+
+#@ wp-twitter-button
+#: wp-twitter-button.php:652
+msgid "Save Changes"
+msgstr "Instellingen Opslaan"
+
+#@ wp-twitter-button
+#: wp-twitter-button.php:632
+msgid "Maintenance"
+msgstr "Onderhoud"
+
+#@ wp-twitter-button
+#: wp-twitter-button.php:636
+msgid "Reset Options"
+msgstr "Opties Resetten"
+
+#@ wp-twitter-button
+#: wp-twitter-button.php:643
+msgid "Clear Options"
+msgstr "Opties Wissen"
+
+#@ wp-twitter-button
+#: wp-twitter-button.php:638
+msgid "This will delete all options from database and restore the defaults"
+msgstr "Dit verwijderd alle opties uit de database en herstelt de standaardwaarden"
+
+#@ wp-twitter-button
+#: wp-twitter-button.php:645
+msgid "This will delete all options from database"
+msgstr "Dit verwijderd alle opties uit de database"
+
+#@ default
+#: wp-twitter-button.php:665
+msgid "Settings"
+msgstr "Instellingen"
+
+#@ wp-twitter-button
+#: wp-twitter-button.php:490
+msgid "Support me if you like the Plugin"
+msgstr "Ondersteun me als de plugin je bevalt"
+
+#@ wp-twitter-button
+#: wp-twitter-button.php:605
+msgid "Posttitle &raquo; Blogtitle"
+msgstr "Berichttitel &raquo; Blogtitel"
+
+#@ wp-twitter-button
+#: wp-twitter-button.php:606
+msgid "Posttitle"
+msgstr "Berichttitel"
+
+#@ wp-twitter-button
+#: wp-twitter-button.php:617
+msgid "Custom tweettext missing !!!"
+msgstr "Geen Aangepaste Tweettekst !!!"
+
+#@ wp-twitter-button
+#: wp-twitter-button.php:620
+msgid "Please enter a custom tweettext. Otherweise the plugin will use default settings for tweetext as &quot;<strong>Posttitle &raquo; Blogtitle</strong>&quot;"
+msgstr "Geef een aangepaste Tweettekst in, anders zal de plugin standaard waarden gebruiken als Tweettekst zoals &quot;<strong>Posttitle &raquo; Blogtitle</strong>&quot;"
+
+#@ wp-twitter-button
+#: wp-twitter-button.php:431
+msgid "Settings resetted."
+msgstr "Instellingen teruggezet"
+
+#@ wp-twitter-button
+#: wp-twitter-button.php:442
+msgid "Settings deleted."
+msgstr "Instellingen verwijderd."
+
+#@ wp-twitter-button
+#: wp-twitter-button.php:473
+msgid "Settings saved."
+msgstr "Instellingen opgeslagen."
+

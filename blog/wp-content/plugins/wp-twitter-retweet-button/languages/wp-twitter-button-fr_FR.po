@@ -1,0 +1,211 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP-Twitter Retweet Button v1.2.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2010-08-21 21:41+0100\n"
+"Last-Translator: Frank Zimper <frank@frankoli.de>\n"
+"Language-Team: \n"
+"Language: fr-FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ../\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#@ wp_twitter
+#: wp-twitter-button.php:55
+msgid "Twitterbutton"
+msgstr "Bouton Twitter"
+
+#@ wp_twitter
+#: wp-twitter-button.php:159
+msgid "Settings for WP Twitter Button"
+msgstr "Paramètres pour le bouton WP Twitter"
+
+#@ wp_twitter
+#: wp-twitter-button.php:160
+msgid "This plugin will install the WP Twitter Button widget for each of your blog posts."
+msgstr "Ce plugin va installer le bouton WP Twitter pour chaque article sur vôtre blog."
+
+#@ wp_twitter
+#: wp-twitter-button.php:176
+msgid "Display"
+msgstr "Affichage"
+
+#@ wp_twitter
+#: wp-twitter-button.php:180
+msgid "Display the button on pages"
+msgstr "Afficher le bouton sur les pages"
+
+#@ wp_twitter
+#: wp-twitter-button.php:184
+msgid "Display the button on front page (home)"
+msgstr "Afficher le bouton sur la page d'accueil"
+
+# @ default
+#: wp-twitter-button.php:179
+msgid "Display the button on archive-view <em>(<strong>Note</strong>: not all themes support this option)</em>"
+msgstr "Afficher le bouton sur la page archive <em>(<strong>Avis</strong>: dépendant du thème)</em>"
+
+# @ default
+#: wp-twitter-button.php:179
+msgid "Display the button on category-view <em>(<strong>Note</strong>: not all themes support this option)</em>"
+msgstr "Afficher le bouton sur la page de catégorie <em>(<strong>Hinweis</strong>: Nicht jedes Theme unterstützt diese Option)</em>"
+
+#@ wp_twitter
+#: wp-twitter-button.php:188
+msgid "Display the button on rss-feed"
+msgstr "Afficher le bouton au flux RSS"
+
+#@ wp_twitter
+#: wp-twitter-button.php:193
+msgid "Position"
+msgstr "Position"
+
+#@ wp_twitter
+#: wp-twitter-button.php:196
+#: wp-twitter-button.php:208
+msgid "Before"
+msgstr "Avant"
+
+#@ wp_twitter
+#: wp-twitter-button.php:197
+#: wp-twitter-button.php:209
+msgid "After"
+msgstr "Après"
+
+#@ wp_twitter
+#: wp-twitter-button.php:198
+#: wp-twitter-button.php:210
+msgid "Before and After"
+msgstr "Avant et après"
+
+#@ wp_twitter
+# Zusammenhang?
+#: wp-twitter-button.php:199
+#: wp-twitter-button.php:211
+msgid "Shortcode [wp_twitter]"
+msgstr "Shortcode [wp_twitter]"
+
+#@ wp_twitter
+#: wp-twitter-button.php:200
+msgid "Manual"
+msgstr "A la main"
+
+#@ wp_twitter
+#: wp-twitter-button.php:205
+msgid "RSS Position"
+msgstr "Position RSS"
+
+#@ wp_twitter
+#: wp-twitter-button.php:216
+msgid "Type"
+msgstr "Type"
+
+#@ wp_twitter
+#: wp-twitter-button.php:221
+msgid "Vertical count"
+msgstr "Compteur vertical"
+
+#@ wp_twitter
+#: wp-twitter-button.php:228
+msgid "Horizontal count"
+msgstr "Compteur horizontal"
+
+#@ wp_twitter
+#: wp-twitter-button.php:235
+msgid "No count"
+msgstr "Pas de compteur"
+
+#@ wp_twitter
+#: wp-twitter-button.php:242
+msgid "Styling"
+msgstr "Style"
+
+#@ wp_twitter
+#: wp-twitter-button.php:245
+msgid "Add style to the div that surrounds the button E.g. <code>float: left; margin-right: 10px;</code>"
+msgstr "Ajoutez un style au div qui entoure le bouton. Par example <code>float: left; margin-right: 10px;</code>"
+
+#@ wp_twitter
+#: wp-twitter-button.php:249
+msgid "Source"
+msgstr "source"
+
+#@ wp_twitter
+#: wp-twitter-button.php:252
+msgid "Please use the format of 'yourname', not 'RT @yourname'."
+msgstr "Utilisez la forme 'votrenom' au lieu de 'RT @votrenom', s.v.p."
+
+#@ wp_twitter
+#: wp-twitter-button.php:256
+msgid "Language"
+msgstr "Langue"
+
+#@ wp_twitter
+#: wp-twitter-button.php:259
+msgid "English"
+msgstr "Anglais"
+
+#@ wp_twitter
+#: wp-twitter-button.php:260
+msgid "French"
+msgstr "Français"
+
+#@ wp_twitter
+#: wp-twitter-button.php:261
+msgid "German"
+msgstr "Allemand"
+
+#@ wp_twitter
+#: wp-twitter-button.php:262
+msgid "Spanish"
+msgstr "Espagnol"
+
+#@ wp_twitter
+#: wp-twitter-button.php:263
+msgid "Japanese"
+msgstr "Japonais"
+
+#@ wp_twitter
+#: wp-twitter-button.php:265
+msgid "The language of the button."
+msgstr "La langue du bouton"
+
+#@ wp_twitter
+#: wp-twitter-button.php:269
+msgid "Tweet-Text"
+msgstr "Texte du Tweet"
+
+#@ wp_twitter
+#: wp-twitter-button.php:273
+msgid "The title of the page the button is on."
+msgstr "Le tître du page qui contient le bouton."
+
+#@ wp_twitter
+#: wp-twitter-button.php:280
+msgid "This is the text that people will include in their Tweet when they share from your website."
+msgstr "C'est le texte qui va être inclu dans le tweet quand quelqu'un partage un article."
+
+# @ default
+#: wp-twitter-button.php:275
+msgid "Use tags as #hashtags"
+msgstr "Utiliser les mots clefs comme des #hashtags"
+
+# @ default
+#: wp-twitter-button.php:275
+msgid "Add the following code to your template"
+msgstr "Insérer le code suivant dans vôtre template"
+
+#@ wp_twitter
+#: wp-twitter-button.php:285
+msgid "Save Changes"
+msgstr "Sauvegarder les modifications"
+

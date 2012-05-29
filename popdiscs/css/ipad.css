@@ -1,0 +1,27 @@
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: portrait) { 
+	/* - */
+	#choose-cd > ul li {
+	    float: none;
+	    margin: 0;
+	    width: 95%;
+	}
+	#choose-cd > ul li img {
+	    margin: 0 30%
+	}
+	#reviews > article {
+	    clear: both;
+	    margin: 5% 5% 0;
+	    width: 90%;
+	}
+}
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: landscape) { 
+	/* - */
+	#choose-cd > ul li {
+	    margin: 0 3% 0 2%
+	}
+	#reviews > article {
+	    margin: 4% 4% 0;
+	    height: 200px;
+	    width: 40%;
+	}
+}

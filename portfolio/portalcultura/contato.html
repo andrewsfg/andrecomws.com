@@ -1,0 +1,89 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head><script>
+<!--
+function valida(){
+if(document.form.nome.value.length ==0){
+alert('O nome precisa ser preenchido');
+}else if(document.form.email.value.length ==0){
+alert('O E-mail deve ser preenchido');
+}else if(document.form.sugestao.value.length ==0){
+alert('A mensagem deve ser preenchida');
+}else{
+alert('Formulário enviado com sucesso! Obrigado');
+}
+}
+//-->
+</script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Portal Cultural - Contato</title>
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+<body>
+<div id="container">
+
+
+<div id="topocontato"></div>
+
+<div id="menu">
+  <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="486" height="39">
+    <param name="movie" value="multimidia/menu.swf">
+    <param name="quality" value="high">
+    <embed src="multimidia/menu.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="486" height="39"></embed>
+  </object>
+</div>
+
+
+<div id="destaque1"><iframe src="esquerda.html" name="destaques" width="186" height="969" frameborder="0" scrolling="no" marginwidth="0" marginheight="0"> </iframe></div>
+<div id="texto">
+  <div id="titulo"><strong>Contato</strong></div>
+  
+  <p>Preencha corretamente o formulário abaixo e entraremos em contato o mais breve possível.  </p>
+  <p>* Campos Obrigatórios 
+  <form method="post" name="form">
+        <table>
+            <tr>
+                <td>Nome:*</td>
+                <td><input type="text" name="nome" size="20" maxlength="35" /></td>
+            </tr>
+
+            <tr>
+                <td>E-mail:*</td>
+                <td><input type="text" name="email" size="20" maxlength="35" /></td>
+            </tr>
+
+            <tr>
+                <td>Interesses:</td>
+                <td><input type="checkbox" name="interesses" value="arte" />Arte<br />
+                       <input type="checkbox" name="interesses" value="dança" />Dança<br />
+                       <input type="checkbox" name="interesses" value="cinema" />Cinema<br />
+                       <input type="checkbox" name="interesses" value="teatro" />Teatro<br />
+                       <input type="checkbox" name="interesses" value="musica" />Música<br />
+                       <input type="checkbox" name="interesses" value="outros" />Outros</td>
+            </tr>
+            <tr>
+                <td>Idade:</td>
+                <td><select name="idade">
+                             <option value="2">de 10 a 20 anos</option>
+                             <option value="3" selected="selected">de 21 a 30 anos</option>
+                             <option value="4">de 31 a 40 anos</option>
+                             <option value="5">acima de 40 anos</option>
+                         </select></td>
+            </tr>
+            <tr>
+                <td>Sua mensagem:*</td>
+                <td><textarea name="sugestao" cols="30" rows="5"></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center"><input type="button" name="btnTeste" value="Enviar" onclick="valida();">
+                <input type="reset" name="limpar" value="limpar" /></td>
+            </tr>
+</table>
+    </form></p>
+</div>
+<div id="destaque2"><iframe src="direita.html" name="destaques" width="171" height="950" frameborder="0" scrolling="no" marginwidth="0" marginheight="0"></iframe></div>
+<div id="rodape">Todos os direitos reservados à Portal Cultura - 2006</div>
+
+</div></body>
+</html>

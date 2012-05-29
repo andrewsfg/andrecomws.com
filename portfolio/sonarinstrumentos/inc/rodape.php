@@ -1,0 +1,1 @@
+<a href="ajuda.php"><img src="imgs/btn_rpe_ajuda.gif" /></a><a href="contato.php"><img src="imgs/btn_rpe_cont.gif" /></a><a href="quem_somos.php"><img src="imgs/btn_rpe_q_somos.gif" /></a>

@@ -1,0 +1,204 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>Formulário de Inscrição</title>
+
+</head>
+
+
+
+<body>
+
+<form name="inscricao" method="post" action="envia_inscricao.php">
+
+<table width="433" border="0" cellpadding="1" cellspacing="1">
+
+  <tr>
+
+    <th colspan="2">Formulário de Inscrição:</th>
+
+  </tr>
+
+  <tr>
+
+    <td width="155">Nome:</td>
+
+    <td width="262"><input name="nome" type="text" id="nome" size="40" /></td>
+
+  </tr>
+
+  <tr>
+
+    <td>Data de Nascimento:</td>
+
+    <td><input name="nascimento1" type="text" id="nascimento1" size="1" maxlength="3" />
+
+      /
+
+        <input name="nascimento2" type="text" id="nascimento2" size="1" maxlength="3" />
+
+      /
+
+      <input name="nascimento3" type="text" id="nascimento3" size="2" maxlength="4" /></td>
+
+  </tr>
+
+  <tr>
+
+    <td>Sexo:</td>
+
+    <td><input type="radio" name="sexo" value="masculino" />
+
+    Masculino
+
+      <input type="radio" name="sexo" value="feminino" /> 
+
+      Feminino</td>
+
+  </tr>
+
+  <tr>
+
+    <td>Estado Civil:</td>
+
+    <td><input type="radio" name="estadocivil" id="estadocivil" value="solteiro" />
+
+Solteiro(a)
+
+  <input type="radio" name="estadocivil" id="estadocivil2" value="casado" />
+
+  Casado(a)</td>
+
+  </tr>
+
+  <tr>
+
+    <td>Curso:</td>
+
+    <td><input type="radio" name="curso" id="curso" value="economia" />
+
+Economia
+
+  <input type="radio" name="curso" id="curso" value="contabilidade" />
+
+Contabilidade</td>
+
+  </tr>
+
+  <tr>
+
+    <td>Turno:</td>
+
+    <td><input type="radio" name="turno" id="turno" value="manha" />
+
+Manhã
+
+  <input type="radio" name="turno" id="turno" value="noite" /> 
+
+  Noite</td>
+
+  </tr>
+
+  <tr>
+
+    <td>Periódo:</td>
+
+    <td><select name="periodo" id="periodo">
+
+    	<option value="primeiro">Primeiro</option>
+
+        <option value="segundo">Segundo</option>
+
+        <option value="terceiro">Terceiro</option>
+
+    	<option value="quarto">Quarto</option>
+
+        <option value="quinto">Quinto</option>
+
+        <option value="sexto">Sexto</option>
+
+        <option value="setimo">Sétimo</option>
+
+        <option value="oitavo">Oitavo</option>
+
+        <option value="nono">Nono</option>
+
+        <option value="decimo">Décimo</option>
+
+    </select></td>
+
+  </tr>
+
+  <tr>
+
+    <td>Endereço:</td>
+
+    <td><input name="endereco" type="text" id="endereco" size="30" /></td>
+
+  </tr>
+
+  <tr>
+
+    <td>Cidade:</td>
+
+    <td><input name="cidade" type="text" id="cidade" size="20" /></td>
+
+  </tr>
+
+  <tr>
+
+    <td>E-mail:</td>
+
+    <td><input name="email" type="text" id="email" size="30" /></td>
+
+  </tr>
+
+  <tr>
+
+    <td>Telefone:</td>
+
+    <td><input name="telefone" type="text" id="telefone" size="10" /></td>
+
+  </tr>
+
+  <tr>
+
+    <td>Celular:</td>
+
+    <td><input type="text" name="celular" id="celular" /></td>
+
+  </tr>
+
+  <tr>
+
+    <td>&nbsp;</td>
+
+    <td><textarea name="mensagem" id="mensagem">Digite sua mensagem aqui
+
+</textarea></td>
+
+  </tr>
+
+  <tr>
+
+    <td>&nbsp;</td>
+
+    <td><input type="submit" name="bt-envia" id="bt-envia" value="Enviar" />
+
+    <input type="submit" name="bt-envia" id="bt-envia" value="Limpar" /></td>
+
+  </tr>
+
+</table>
+
+</form>
+
+</body>
+
+</html>
+
