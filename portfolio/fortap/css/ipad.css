@@ -1,0 +1,40 @@
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: portrait) { 
+    /* - */
+    #content h1 {
+        margin: 5% 1%;
+    }
+    #contact abbr,
+    #contact a {
+        margin: 0 1%
+    }
+    .latest-work div.modal-lightsout {
+        left: -30px;
+        width: 110%;
+    }
+    .share {
+        width: 21%;
+    }
+}
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: landscape) { 
+    /* - */
+    .wrap {
+        margin: 3.5% auto
+    }
+    header {
+        margin-left: 1
+    }
+    .latest-work figure {
+        margin-right: 4%
+    }
+    #contact abbr,
+    #contact a {
+        margin: 0 0 0 2%
+    }
+    .share {
+        margin: 2% auto;
+        width: 19%;
+    }
+    footer {
+        margin: 0
+    }
+}

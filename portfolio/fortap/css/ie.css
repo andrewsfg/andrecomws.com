@@ -1,0 +1,79 @@
+body {
+    background: #fff url('../images/background.jpg') repeat-x;
+    overflow: hidden;
+}
+.latest-work div.modal-profile {
+    margin: 0 auto
+}
+header img.top {
+    display: none
+}
+.latest-work div {
+    display: inline
+}
+.latest-work .modal-lightsout {
+    visibility: visible;
+    display: none;
+}
+a.modal-close-profile:after {
+    border: none
+}
+.latest-work figure {
+    border: 0;
+    margin-right: 5%;
+}
+
+*+html #content dt:hover + dd {
+    width: 90px
+}
+*+html #content dt {
+    margin: 14px 4% 2px 3.5%
+}
+.latest-work figure {
+    border: 5px solid #000;
+    padding-bottom: 0;
+}
+.latest-work figure img:hover {
+    filter: alpha(opacity='50')
+}
+.latest-work figure:hover:after,
+.latest-work figure:hover:before {
+    display: none
+}
+*+html #contact {
+    margin-top: -5px
+}
+footer {
+    padding-bottom: 1%
+}
+/* ie6 sucks ò.ó */
+* html .latest-work .modal-lightsout {
+    display: none;
+    position: absolute;
+    width: 1400px;
+}
+* html #content dl {
+    margin: 4% 0 0;
+    padding: 0;
+    border-right: 0;
+}
+* html .latest-work {
+    float: left
+}
+* html .latest-work figure {
+    float: left;
+    margin: 0 10%;
+    border: 1px solid #000;
+}
+* html .latest-work h2 {
+    margin: 2% 0
+}
+* html .latest-work div {
+    margin: 0
+}
+* html #contact {
+    margin-top: 0
+}
+* html #contact abbr {
+    margin: 0 5%
+}
